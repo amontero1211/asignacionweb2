@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --width: 1440px;
+}
+
+.customContainer {
+  @apply w-[var(--width)] mx-auto;
+}
+
+.paddingY {
+  @apply py-20;
+}
+
+.h1 {
+  @apply font-bold text-7xl;
+}
+
+.paddingX {
+  @apply px-14;
+}
+
+.slick-slide > * {
+  @apply mx-4;
+}
+
+.slick-dots li {
+  height: 15px;
+}
+
+.slick-active > div {
+  @apply bg-white;
+}
